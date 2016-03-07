@@ -1,0 +1,146 @@
+body
+   margin 0px
+   padding 0px
+   font-size 16px
+   background-color #000
+
+.timeline
+   position relative
+   margin 30px 0px 20px 0px
+   h1
+      position absolute
+      top 10px
+      left 0px
+      text-align center
+      width 100%
+      margin 0px
+      border-bottom 1px solid rgba(255,255,255,.2)
+      font-size  1.2em
+      z-index 1
+      text-transform uppercase
+      color #fff
+      padding-bottom 10px
+      letter-spacing 2px
+   .panel_container
+      overflow hidden
+      position relative
+      margin 10px 0px 0px 0px
+      width 100%
+      height 300px
+      background-color #000
+   .background_slider
+      position absolute
+      width inherit
+      height inherit
+      img
+         position absolute
+         top 0px
+         left 0px
+   .panel_slider
+      position absolute
+      width 100%
+   .panel
+      position absolute
+      width 340px
+   .panel_content
+      padding 75px 10px 0px 40px
+      position relative
+      h2
+         font-size 1em
+         color #fff
+         margin 0px 0px 8px 0px
+      p
+         margin 0px 0px 1em 0px
+         position relative
+         color rgba(255, 255, 255, .55)
+      .label
+         position absolute
+         top 12px
+         right 0px
+         font-size 4em
+         color rgba(255, 255, 255, .2)
+         text-align right
+         font-family Georgia
+   nav
+      position absolute
+      bottom 0px
+      left 0px
+      text-allign center
+      width inherit
+      border-bottom 5px solid #fff
+      a
+         color #fff
+         font-size .9em
+         display inline-block
+         padding 5px 10px
+         border-color #fff
+         border-style solid
+         border-left-width 5px
+         border-right-width 5px
+         border-bottom-width 0px
+         border-top-width 8px
+         text-decoration none
+      a:first-child
+         border-left-width 8px
+      a:last-child
+         border-right-width 8px
+      a.selected
+         background-color rgba(255, 255, 255, .55)
+// styles for images
+.arpanet
+   margin 0px 0px 10px 0px
+.tcp
+   float left
+   margin 10px 20px 0px 0px
+.tcp_ip
+   float left
+   margin-right 20px
+.www
+   float left
+   margin 10px 15px 0px 0px
+.voip
+   float right
+   margin 10px 0px 0px 10px
+.telecommunications_usage
+   float right
+   margin 10px 30px 0px 10px
+.clear_both
+   clear both
+
+@media screen and (max-width 500px)
+   .timeline
+      margin 0px
+      background #000 url('../img/background_small.png') repeat center 0px
+      h1
+         text-align left
+         padding 10px 10px 10px 20px
+      .panel_container
+         height auto
+         background none
+         filter none
+         margin 0px
+      .panel_slider
+         position static
+         height auto
+      .panel
+         width auto
+         height auto
+         position static
+         border-top 1px solid rgba(255, 255, 255, .3)
+         padding-bottom 20px
+      nav, .background_slider
+         display none
+      .panel:first_child
+         padding-top 40px
+      .panel_content
+         padding-top 60px
+         .label
+            top -10px
+            right 10px
+   .www
+      margin 0px 25px 0px 0px
+   .voip
+      margin 10px 40px 0px 20px
+   .telecommunications_usage
+      float left
+      margin 10px 15px 0px 0px
