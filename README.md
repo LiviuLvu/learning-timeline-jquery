@@ -4,6 +4,6 @@ Timeline app with jquery
 Styling with Stylus.css
 
 Test live app:
-http://lvudesign.com/learning-timeline-jquery/
+http://liviulvu.github.io/learning-timeline-jquery/
 
-App made following instructions from a tutorial.
+Made this page following instructions from a tutorial from Lynda.com
